@@ -1,0 +1,46 @@
+ body {
+   text-align: center;
+   background-image: url(https://images.squarespace-cdn.com/content/v1/584ee3cc2994cac9e545aadd/1570042034184-1XIR0OZQOCY0XIFER1RE/museum+visitors?format=500w);
+   background-size: cover;
+   background-repeat: no-repeat
+   
+}
+section{
+    display: flex;
+    justify-content: center   
+}
+ div{
+     padding: 20px;
+ }
+button{
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   color: white;
+   font-weight: bold;
+}
+#foreign-count {
+    color: red;
+}
+#local-count {
+    color: #29bf12;
+}
+#foreignIncrement-btn{    
+    background: #29bf12;
+    width: 150px;
+}
+#localIncrement-btn{    
+    background: #396efc;
+    width: 150px;
+}
+#save-btn{
+    background: red;
+    width: 150px;
+    margin-top: 68px;
+}
+p {
+    color: white;
+    font-size: 24px;
+     
+}
